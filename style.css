@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-color: #E8DFD0;
     margin-left: 0px;
     margin-top: 70px;
     font-family: Helvetica;
@@ -9,46 +9,50 @@ body{
 .square {
     font-size: 20px;
     display: flex;
-    
+
 }
 
 .top{
-background-color: black;
+background-color:  #0B0A0A;
 height: 300px;
 width: 1200px;
 font-size: 150px;
-display: flex;
+font-family: me;
 justify-content: left;
--webkit-text-fill-color: beige;
+-webkit-text-fill-color: #E8DFD0;
 }
 
+.grid-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    -webkit-text-fill-color: #0B0A0A
+}
 
 .left {
-    background-color: green;
-    height: 10px;
-    width: 120px;
+    background-color: #D27B2B;
+    height: 70px;
+    width: 100%;
     font-size: 20px;
-    display: flex;
+    justify-content: center;
+    
+}
+
+.middle {
+    background-color: #4879B3;
+    height: 70px;
+    width: 100%;
+    font-size: 20px;
     justify-content: center;
     
 }
 
 .right {
-    background-color: red;
-    height: 10px;
-    width: 120px;
+    background-color: #CD3346;
+    height: 70px;
+    width: 100%;
     font-size: 20px;
-    display: flex;
-    justify-content: center;
-    
-}
-
-.right {
-    background-color: blue;
-    height: 10px;
-    width: 120px;
-    font-size: 20px;
-    display: flex;
     justify-content: center;
     
 }
